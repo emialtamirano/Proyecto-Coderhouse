@@ -1,0 +1,191 @@
+/*V A R I A B L E S*/
+
+$cool-blue: #3b4455;
+$cool-brown: #504b37;
+$cool-white: #ffffff;
+
+$font-h1: 3.5rem;
+$font-h2: 2.5rem;
+
+$font-p1: 1.7rem;
+
+
+
+main {
+    .container-referencia-tienda {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        justify-content: space-around;
+        
+    
+        background-color: $cool-blue;
+        width: 100%;
+        margin: 0  auto;
+        padding: 20px;
+        border: 1px solid black;
+
+        .img-referencia {
+            display: grid;
+            align-items: center;
+        
+            width: 600px;
+            height: 380px;
+            border: 1px solid $cool-white;
+            background-color: $cool-white;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            align-items: center;
+
+            img {
+                width: 600px;
+                height: 375px;
+            }
+
+            p {
+                font-size: 22px;
+                color: $cool-brown;
+                font-weight: 600;
+                text-align: center;
+            }
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .container-referencia-tienda {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            align-items: center;
+            
+            background-color: $cool-blue;
+            width: 100%;
+            height: 570px;
+            margin: 0  auto;
+            padding: 10px;
+            border: 1px solid black;
+
+            .img-referencia {
+                width: 400px;
+                height: 260px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                align-items: center;
+
+                img {
+                    width: 400px;
+                    height: 260px;
+                }
+
+                p {
+                    font-size: 13px;
+                    color: $cool-brown;
+                    font-weight: 600;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
