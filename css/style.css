@@ -42,7 +42,7 @@ body main .container-section1 div h1 {
 }
 @media screen and (max-width: 650px) {
   body main .container-section1 div h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 body main .container-section1 div p {
@@ -119,11 +119,7 @@ body main .container-ilustraciones .ilustracion img {
   }
 }
 body main .container-p-principal .row h2 {
-  font-size: 4rem;
-  color: #504b37;
-  font-weight: 700;
-  font-style: normal;
-  text-align: center;
+  font-size: 3.5rem;
 }
 body main .container-p-principal .row p {
   font-size: 1.5rem;
@@ -225,20 +221,13 @@ main section div .container-somos-section1 {
   padding-left: 40px;
   padding-right: 40px;
 }
-main section div .container-somos-section1 h2 {
-  font-size: 3.2rem;
-  color: #504b37;
-  font-weight: 750;
-  font-style: normal;
-  text-align: center;
+main section div .container-somos-section1 .titulo {
+  font-size: 3rem;
   margin-top: 4rem;
   margin-bottom: 2rem;
 }
 main section div .container-somos-section1 .parrafo {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #3b4455;
-  text-align: center;
+  font-size: 1.7rem;
   padding-bottom: 4rem;
 }
 main section div img {
@@ -246,7 +235,7 @@ main section div img {
 }
 @media screen and (max-width: 650px) {
   main section div .container-somos-section1 h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
   }
   main section div .container-somos-section1 .parrafo {
@@ -257,10 +246,6 @@ main section div img {
 }
 main .container-somos-section2 h3 {
   font-size: 3rem;
-  color: #504b37;
-  font-weight: 750;
-  font-style: normal;
-  text-align: center;
   margin-bottom: 5rem;
   margin-top: 3rem;
 }
@@ -281,8 +266,6 @@ main .container-somos-section2 .somos-section2 .caja1 p {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 1.3rem;
-  font-weight: 600;
-  color: #3b4455;
   text-align: start;
 }
 main .container-somos-section2 .somos-section2 .caja2 {
@@ -299,7 +282,7 @@ main .container-somos-section2 .somos-section2 .caja2 img {
     margin-bottom: 1rem;
   }
   main .container-somos-section2 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   main .container-somos-section2 .somos-section2 {
@@ -312,6 +295,7 @@ main .container-somos-section2 .somos-section2 .caja2 img {
     margin-bottom: 5rem;
   }
   main .container-somos-section2 .somos-section2 .caja1 p {
+    font-size: 1.3rem;
     margin-top: 0.5rem;
   }
   main .container-somos-section2 .somos-section2 .caja2 {
@@ -321,10 +305,6 @@ main .container-somos-section2 .somos-section2 .caja2 img {
 }
 main .container-somos-section3 h3 {
   font-size: 3rem;
-  color: #504b37;
-  font-weight: 750;
-  font-style: normal;
-  text-align: center;
   margin-bottom: 5rem;
 }
 main .container-somos-section3 .somos-section3 {
@@ -345,8 +325,6 @@ main .container-somos-section3 .somos-section3 div p {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 1.3rem;
-  font-weight: 600;
-  color: #3b4455;
   text-align: start;
 }
 main .container-somos-section3 .somos-section3 div img {
@@ -356,7 +334,7 @@ main .container-somos-section3 .somos-section3 div img {
   main .container-somos-section3 h3 {
     font-size: 2rem;
     color: #504b37;
-    font-weight: 650;
+    font-weight: 50;
     font-style: normal;
     text-align: center;
     margin-bottom: 5rem;
@@ -441,9 +419,8 @@ main .container .row .col .text-end img {
   height: 5rem;
   margin-right: 1rem;
 }
-main .container .row .bg-login {
-  background-image: url(/Imagenes/login.jpg);
-  background-position: center center;
+main .container .row .bg-login img {
+  width: 100%;
 }
 
 /*V A R I A B L E S*/
@@ -478,10 +455,11 @@ main .section-contact .contact-form .form {
 }
 main .section-contact .contact-form .form .texto h3 {
   color: #504b37;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 main .section-contact .contact-form .form .texto p {
+  font-size: 1.3rem;
   color: #3b4455;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -547,5 +525,20 @@ main .section-contact .contact-form form .input-box input[type=submit] {
 main .section-contact .contact-form form .input-box input[type=submit]:hover {
   background: #3b4455;
 }
+
+body main .container-p-principal .row h2, main section div .container-somos-section1 .titulo, main .container-somos-section2 h3, main .container-somos-section3 h3 {
+  color: #504b37;
+  font-weight: 750;
+  font-style: normal;
+  text-align: center;
+}
+
+main section div .container-somos-section1 .parrafo, main .container-somos-section2 .somos-section2 .caja1 p, main .container-somos-section3 .somos-section3 div p {
+  font-weight: 600;
+  color: #3b4455;
+  text-align: center;
+}
+
+/*V A R I A B L E S*/
 
 /*# sourceMappingURL=style.css.map */

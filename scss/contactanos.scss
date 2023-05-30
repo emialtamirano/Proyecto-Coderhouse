@@ -5,9 +5,11 @@ $cool-brown: #504b37;
 $cool-white: #ffffff;
 
 $font-h1: 3.5rem;
-$font-h2: 2.5rem;
+$font-h2: 3rem;
+$font-h3: 2.5rem;
 
 $font-p1: 1.7rem;
+$font-p2: 1.3rem;
 
 
 main {
@@ -43,11 +45,12 @@ main {
                 .texto {
                     h3 {
                         color: $cool-brown;
-                        font-size: 2rem;
+                        font-size: $font-h3;
                         margin-bottom: 10px;
                     }
 
                     p {
+                        font-size: $font-p2;
                         color: $cool-blue;
                         line-height: 1.5;
                         margin-bottom: 20px;

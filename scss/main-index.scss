@@ -5,9 +5,11 @@ $cool-brown: #504b37;
 $cool-white: #ffffff;
 
 $font-h1: 3.5rem;
-$font-h2: 2.5rem;
+$font-h2: 3rem;
+$font-h3: 2.5rem;
 
 $font-p1: 1.7rem;
+$font-p2: 1.3rem;
 
 
 
@@ -127,11 +129,8 @@ body {
         .container-p-principal {
             .row {
                 h2 {
-                    font-size: 4rem;
-                    color: $cool-brown;
-                    font-weight: 700;
-                    font-style: normal;
-                    text-align: center;
+                    font-size: $font-h1;
+                    @extend %titulo;
                 }
 
                 p {
